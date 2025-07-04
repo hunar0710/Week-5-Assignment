@@ -1,0 +1,9 @@
+{
+	"name": "adf-hunar001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8bd8f8fe-894b-40c3-849a-1b9a9ce52525",
+		"tenantId": "27282fdd-4c0b-4dfb-ba91-228cd83fdf71"
+	}
+}

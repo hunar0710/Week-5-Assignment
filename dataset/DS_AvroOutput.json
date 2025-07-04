@@ -1,0 +1,20 @@
+{
+	"name": "DS_AvroOutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Storage_Sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Avro",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.avro",
+				"container": "data"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
